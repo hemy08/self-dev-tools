@@ -1,0 +1,122 @@
+@import url('https://fonts.font.im/css?family=Roboto');
+
+.md-grid {
+  max-width: 82rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.md-typeset h1 {
+    color: var(--md-default-fg-color);
+    font-size: 2em;
+    line-height: 1.3;
+    margin: 0 0 1.25em;
+    font-weight: 700;
+    letter-spacing: -.01em;
+}
+
+.md-typeset h2 {
+    color: darkblue;
+    font-size: 1.7em;
+    line-height: 1.4;
+    margin: 1.6em 0 0.64em;
+    font-weight: 700;
+    letter-spacing: -.01em;
+}
+
+.md-typeset h3 {
+    color: mediumblue;
+    font-size: 1.4em;
+    font-weight: 700;
+    letter-spacing: -.01em;
+    line-height: 1.5;
+    margin: 1.6em 0 0.8em;
+}
+
+.md-typeset h4 {
+    color: dodgerblue;
+    font-size: 1.2em;
+    font-weight: 700;
+    letter-spacing: -.01em;
+    margin: 1em 0;
+}
+
+.md-typeset h5 {
+    color: deepskyblue;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: -.01em;
+    margin: 1em 0;
+}
+
+/*.md-typeset img,.md-typeset svg,.md-typeset video {
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    width: auto;
+}*/
+
+.hemy-red-blod12 {
+    color:rgb(255,0,0);
+    font-size:12pt;
+    font-weight:bold;
+}
+
+.hemy-red-blod {
+    color:rgb(255,0,0);
+    font-weight:bold;
+}
+
+.hemy-blud-blod {
+    color:rgb(0,0,255);
+    font-weight:bold;
+}
+
+.hemy-star-five {
+    color:rgb(255,0,0);
+    font-weight:bold;
+}
+
+.hemy-star-four {
+    color:rgb(255,0,255);
+    font-weight:bold;
+}
+
+.hemy-star-three {
+    color:rgb(0,0,255);
+    font-weight:bold;
+}
+
+.hemy-star-two {
+    color:rgb(0,255,255);
+    font-weight:bold;
+}
+
+.hemy-star-one {
+    color:rgb(0,255,0);
+    font-weight:bold;
+}
+
+#imgBaseDiv > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 99%;
+    max-height: 99%;
+}
+
+#imgBaseDiv {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.9);
+    top: 0;
+    left: 0;
+    z-index: 1050;
+}
+
+table th {
+    background-color: #2195f3;
+    font-size:14pt;
+}
