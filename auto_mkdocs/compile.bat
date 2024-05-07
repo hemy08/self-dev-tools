@@ -1,0 +1,1 @@
+pyinstaller -F make_mkdocs_yml.py --distpath ./  --specpath ./build --workpath ./build -n mkdocsyaml.exe
